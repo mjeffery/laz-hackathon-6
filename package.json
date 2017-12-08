@@ -4,7 +4,8 @@
   "description": "An AWS Lambda function for an 'adopt-a-pet' alexa skill.  Calls out to the petfinder API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r chai/register-expect",
+    "debug-test": "mocha --inspect-brk -r chai/register-expect"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,9 @@
   "homepage": "https://github.com/mjeffery/laz-hackathon-6#readme",
   "dependencies": {
     "alexa-sdk": "^1.0.23"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
   }
 }
