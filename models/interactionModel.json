@@ -1,0 +1,199 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "age",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "baby",
+              "synonyms": [
+                "newborn"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "young",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "adult",
+              "synonyms": [
+                "grownup"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "senior",
+              "synonyms": [
+                "elderly",
+                "older",
+                "mature"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "animal",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "barnyard",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "bird",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "cat",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "dog",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "horse",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "reptile",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "smallfurry",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "sex",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "male",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "female",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "size",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "small",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "medium",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "large",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "extra large",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "findIntent",
+        "samples": [
+          "find a {size} {animal}",
+          "find a {sex} {animal}",
+          "find a {age} {animal}",
+          "find a {size} {age} {animal} ",
+          "find a {size} {sex} {animal}",
+          "find a {animal}",
+          "find a {size} {age} {sex} {animal}",
+          "find a {age} {sex} {animal}"
+        ],
+        "slots": [
+          {
+            "name": "sex",
+            "type": "sex"
+          },
+          {
+            "name": "age",
+            "type": "age"
+          },
+          {
+            "name": "size",
+            "type": "size"
+          },
+          {
+            "name": "animal",
+            "type": "animal"
+          }
+        ]
+      }
+    ],
+    "invocationName": "locate pet"
+  }
+}
