@@ -2,7 +2,12 @@
 
 const Alexa = require('alexa-sdk');
 
+const api = require('./lib/petfinder-api');
+
 const handlers = {
+    findIntent: function() {
+
+    }
 };
 
 exports.handler = function(event, context) {

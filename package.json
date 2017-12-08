@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -r chai/register-expect",
+    "build": "gulp",
     "debug-test": "mocha --inspect-brk -r chai/register-expect"
   },
   "repository": {
@@ -27,6 +28,8 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-zip": "^4.0.0",
     "mocha": "^4.0.1"
   }
 }
