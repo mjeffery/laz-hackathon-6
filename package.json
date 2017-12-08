@@ -1,0 +1,27 @@
+{
+  "name": "laz-hackathon-6",
+  "version": "0.0.1",
+  "description": "An AWS Lambda function for an 'adopt-a-pet' alexa skill.  Calls out to the petfinder API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjeffery/laz-hackathon-6.git"
+  },
+  "keywords": [
+    "Hackathon",
+    "Alexa",
+    "petfinder"
+  ],
+  "author": "mjeffery",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mjeffery/laz-hackathon-6/issues"
+  },
+  "homepage": "https://github.com/mjeffery/laz-hackathon-6#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.23"
+  }
+}
