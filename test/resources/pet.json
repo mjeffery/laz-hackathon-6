@@ -1,0 +1,160 @@
+ {
+    "options": {
+        "option": [
+            {
+                "$t": "specialNeeds"
+            },
+            {
+                "$t": "altered"
+            },
+            {
+                "$t": "hasShots"
+            },
+            {
+                "$t": "housetrained"
+            }
+        ]
+    },
+    "status": {
+        "$t": "A"
+    },
+    "contact": {
+        "phone": {
+            "$t": "(734)-973-9090  "
+        },
+        "state": {
+            "$t": "MI"
+        },
+        "address2": {},
+        "email": {
+            "$t": "kristen@annarborcatclinic.com"
+        },
+        "city": {
+            "$t": "Ann Arbor"
+        },
+        "zip": {
+            "$t": "48108"
+        },
+        "fax": {},
+        "address1": {
+            "$t": "3690 Packard"
+        }
+    },
+    "age": {
+        "$t": "Adult"
+    },
+    "size": {
+        "$t": "M"
+    },
+    "media": {
+        "photos": {
+            "photo": [
+                {
+                    "@size": "pnt",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/1/?bust=1496323158&width=60&-pnt.jpg",
+                    "@id": "1"
+                },
+                {
+                    "@size": "fpm",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/1/?bust=1496323158&width=95&-fpm.jpg",
+                    "@id": "1"
+                },
+                {
+                    "@size": "x",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/1/?bust=1496323158&width=500&-x.jpg",
+                    "@id": "1"
+                },
+                {
+                    "@size": "pn",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/1/?bust=1496323158&width=300&-pn.jpg",
+                    "@id": "1"
+                },
+                {
+                    "@size": "t",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/1/?bust=1496323158&width=50&-t.jpg",
+                    "@id": "1"
+                },
+                {
+                    "@size": "pnt",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/2/?bust=1496323158&width=60&-pnt.jpg",
+                    "@id": "2"
+                },
+                {
+                    "@size": "fpm",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/2/?bust=1496323158&width=95&-fpm.jpg",
+                    "@id": "2"
+                },
+                {
+                    "@size": "x",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/2/?bust=1496323158&width=500&-x.jpg",
+                    "@id": "2"
+                },
+                {
+                    "@size": "pn",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/2/?bust=1496323158&width=300&-pn.jpg",
+                    "@id": "2"
+                },
+                {
+                    "@size": "t",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/2/?bust=1496323158&width=50&-t.jpg",
+                    "@id": "2"
+                },
+                {
+                    "@size": "pnt",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/3/?bust=1496323159&width=60&-pnt.jpg",
+                    "@id": "3"
+                },
+                {
+                    "@size": "fpm",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/3/?bust=1496323159&width=95&-fpm.jpg",
+                    "@id": "3"
+                },
+                {
+                    "@size": "x",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/3/?bust=1496323159&width=500&-x.jpg",
+                    "@id": "3"
+                },
+                {
+                    "@size": "pn",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/3/?bust=1496323159&width=300&-pn.jpg",
+                    "@id": "3"
+                },
+                {
+                    "@size": "t",
+                    "$t": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/37579389/3/?bust=1496323159&width=50&-t.jpg",
+                    "@id": "3"
+                }
+            ]
+        }
+    },
+    "id": {
+        "$t": "37579389"
+    },
+    "shelterPetId": {},
+    "breeds": {
+        "breed": {
+            "$t": "Domestic Short Hair"
+        }
+    },
+    "name": {
+        "$t": "Kellogg"
+    },
+    "sex": {
+        "$t": "M"
+    },
+    "description": {
+        "$t": "Kellogg - this sweet guy was found stray in the Battle Creek area over the summer. He was in a shelter there and for some reason kept getting passed over by potential adopters. We can't understand why, since he is about the sweetest cat you'll ever meet! He's absolutely adorable as well.\n\nThe folks at that shelter noticed that he was losing weight and seemed a little depressed so they thought he would do better in a new environment and would hopefully find a home quickly if he was exposed to a new group of potential homes. We agreed to take Kellogg into our program figuring he'd be an easy placement with his good looks and matching personality.\n\nUnfortunately on his arrival exam, it was noted that Kellogg had a significant heart murmur so a trip to the Cardiologist was necessary. Kellogg was examined by our friends at Veterinary Cardiology Consultants and it was determined that he does indeed have heart disease. He was diagnosed with hypertrophic obstructive cardiomyopathy. He was started on medication to help his heart and his current prognosis is open. He will need to be reevaluated in 6-9 months to determine how the disease is progressing.\n\nAs if heart disease wasn't enough, Kellogg also appears to have some mild allergy issues and has been pulling out his fur. We've started him on a new diet for kitties with food sensitivities and hope that will help him not be so itchy.\n\nThis sweet boy is obviously going to require a very special and understanding home. We are very optimistic that someone out there will be willing to take him on and love him even with his special needs. This boy is incredibly sweet and will reward you with lots of love and affection. If you have room in your heart, home, and wallet for a special needs guy, come meet Kellogg!"
+    },
+    "mix": {
+        "$t": "no"
+    },
+    "shelterId": {
+        "$t": "MI380"
+    },
+    "lastUpdate": {
+        "$t": "2017-03-07T21:53:39Z"
+    },
+    "animal": {
+        "$t": "Cat"
+    }
+}

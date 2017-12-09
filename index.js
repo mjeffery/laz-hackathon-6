@@ -4,6 +4,7 @@ const Alexa = require('alexa-sdk');
 const _ = require('lodash')
 
 const api = require('./lib/petfinder-api');
+const explainPet = require('./lib/explain-pet')
 
 const getSlot = (request, slotName) => {
     const slot = request.intent.slots[slotName]
@@ -27,11 +28,7 @@ const handlers = {
 
                 const pet = _.sample(res.petfinder.pets.pet)
                 if(pet) {
-                    animal = _.get(pet, 'animal.$t', false)
-                    const name = _.get(pet, 'name.$t', false)
-                    const city = _.get(pet, 'contact.city.$t', false)
-
-                    msg = `I found a ${animal} named ${name} nearby in ${city}`
+                    msg = explainPet(pet)
                 } else {
                     msg = `I couldn't find any ${animal}s near your location`
                 }
