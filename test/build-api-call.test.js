@@ -27,4 +27,18 @@ describe('build-api-call', () => {
 
         expect(result).to.equal(expected)
     })
+
+    it('does not include params with undefined values', () => {
+        const url = 'http://api.example.com/posts'
+        const params = {
+            userId: 1,
+            format: undefined,
+            q: undefined
+        }
+
+        const result = buildApiCall(url, params)
+        const expected = 'http://api.example.com/posts?userId=1'
+
+        expect(result).to.equal(expected)
+    })
 })

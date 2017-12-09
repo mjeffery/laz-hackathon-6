@@ -6,8 +6,11 @@ gulp.task('default', () => {
             './lib/**/*.js', 
             './index.js', 
             './package.json',
-            './node_modules/alexa-sdk/**/*'
+            './node_modules/alexa-sdk/**/*',
+            './node_modules/lodash/**/*',
+            './node_modules/i18next/**/*',
+            './node_modules/i18next-sprintf-postprocessor/**/*'
         ], { base: './' })
-        .pipe( zip('lambda-deploy.zip') )
+        //.pipe( zip('lambda-deploy.zip') )
         .pipe( gulp.dest('./dist') )
 })

@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/mjeffery/laz-hackathon-6#readme",
   "dependencies": {
-    "alexa-sdk": "^1.0.23"
+    "alexa-sdk": "^1.0.23",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "chai": "^4.1.2",
