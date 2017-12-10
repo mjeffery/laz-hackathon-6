@@ -3,7 +3,8 @@
 const Alexa = require('alexa-sdk');
 const _ = require('lodash')
 
-const api = require('./lib/petfinder-api');
+const api = require('./lib/petfinder-api')
+const mapSlot = require('./lib/map-slot')
 const explainPet = require('./lib/explain-pet')
 
 const getSlot = (request, slotName) => {
@@ -15,10 +16,10 @@ const handlers = {
     findIntent: function() {
         const request = this.event.request;
 
-        let animal = getSlot(request, 'animal')
-        const size = getSlot(request, 'size')
-        const sex = getSlot(request, 'sex')
-        const age = getSlot(request, 'age')
+        let animal = mapSlot(request, 'findIntent.animal')
+        const size = mapSlot(request, 'findIntent.size')
+        const sex = mapSlot(request, 'findIntent.sex')
+        const age = mapSlot(request, 'findIntent.age')
 
         //TODO fetch the zip code from the device
 

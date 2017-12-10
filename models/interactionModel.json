@@ -5,34 +5,34 @@
         "name": "age",
         "values": [
           {
-            "id": null,
+            "id": "Baby",
             "name": {
-              "value": "Baby",
+              "value": "baby",
               "synonyms": [
                 "newborn"
               ]
             }
           },
           {
-            "id": null,
+            "id": "Young",
             "name": {
-              "value": "Young",
+              "value": "young",
               "synonyms": []
             }
           },
           {
-            "id": null,
+            "id": "Adult",
             "name": {
-              "value": "Adult",
+              "value": "adult",
               "synonyms": [
                 "grownup"
               ]
             }
           },
           {
-            "id": null,
+            "id": "Senior",
             "name": {
-              "value": "Senior",
+              "value": "senior",
               "synonyms": [
                 "elderly",
                 "older",
@@ -46,52 +46,55 @@
         "name": "animal",
         "values": [
           {
-            "id": null,
+            "id": "barnyard",
             "name": {
-              "value": "Barnyard",
+              "value": "barnyard animal",
               "synonyms": []
             }
           },
           {
-            "id": null,
+            "id": "bird",
             "name": {
-              "value": "Bird",
+              "value": "bird",
               "synonyms": []
             }
           },
           {
-            "id": null,
+            "id": "cat",
             "name": {
-              "value": "Cat",
+              "value": "cat",
               "synonyms": []
             }
           },
           {
-            "id": null,
+            "id": "dog",
             "name": {
-              "value": "Dog",
+              "value": "dog",
               "synonyms": []
             }
           },
           {
-            "id": null,
+            "id": "horse",
             "name": {
-              "value": "Horse",
+              "value": "horse",
               "synonyms": []
             }
           },
           {
-            "id": null,
+            "id": "reptile",
             "name": {
-              "value": "Reptile",
+              "value": "reptile",
               "synonyms": []
             }
           },
           {
-            "id": null,
+            "id": "smallfurry",
             "name": {
-              "value": "Small&Furry",
-              "synonyms": ["furry"]
+              "value": "rodent",
+              "synonyms": [
+                "critter",
+                "rabbit"
+              ]
             }
           }
         ]
@@ -100,17 +103,17 @@
         "name": "sex",
         "values": [
           {
-            "id": null,
+            "id": "M",
             "name": {
-              "value": "M",
-              "synonyms": ["male"]
+              "value": "male",
+              "synonyms": []
             }
           },
           {
-            "id": null,
+            "id": "F",
             "name": {
-              "value": "F",
-              "synonyms": ["female"]
+              "value": "female",
+              "synonyms": []
             }
           }
         ]
@@ -119,31 +122,31 @@
         "name": "size",
         "values": [
           {
-            "id": null,
+            "id": "S",
             "name": {
-              "value": "S",
-              "synonyms": ["small"]
+              "value": "small",
+              "synonyms": []
             }
           },
           {
-            "id": null,
+            "id": "M",
             "name": {
-              "value": "M",
-              "synonyms": ["male"]
+              "value": "medium",
+              "synonyms": []
             }
           },
           {
-            "id": null,
+            "id": "L",
             "name": {
-              "value": "L",
-              "synonyms": ["large"]
+              "value": "large",
+              "synonyms": []
             }
           },
           {
-            "id": null,
+            "id": "XL",
             "name": {
-              "value": "XL",
-              "synonyms": ["extra large", "very large"]
+              "value": "extra large",
+              "synonyms": []
             }
           }
         ]

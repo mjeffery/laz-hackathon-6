@@ -6,6 +6,7 @@ gulp.task('default', () => {
             './lib/**/*.js', 
             './index.js', 
             './package.json',
+            './models/*.json',
             './node_modules/alexa-sdk/**/*',
             './node_modules/lodash/**/*',
             './node_modules/i18next/**/*',

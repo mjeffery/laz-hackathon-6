@@ -1,0 +1,55 @@
+{
+          "session": {
+            "new": true,
+            "sessionId": "SessionId.2a02f285-5948-420c-8275-c6adacd0c291",
+            "application": {
+              "applicationId": "amzn1.ask.skill.64eab9a0-63e2-4a17-9ff0-2a626c920b32"
+            },
+            "attributes": {},
+            "user": {
+              "userId": "amzn1.ask.account.AFBKBNU7ZZXHWITTNH6MGX3XM7SVTTLZMOD7ODSBFC4EG7ZNWJXUDJDVR7XLESDBJ67VJ4QUQX2NBCEZCRLERJOV776W5LMZ75JWM6H5TM2AAMMS3RTISDGJREQY7DLYTHMUERJV3H57E634XTXTC5TONN4IHLXB3IO5JALY4Z6GKB4NPXSRDB6DGQ2QHUAD5KVVB6COKHG7WQA"
+            }
+          },
+          "request": {
+            "type": "IntentRequest",
+            "requestId": "EdwRequestId.1e52793a-a9b8-497b-9027-b888b02c088b",
+            "intent": {
+              "name": "findIntent",
+              "slots": {
+                "size": {
+                  "name": "size"
+                },
+                "sex": {
+                  "name": "sex"
+                },
+                "animal": {
+                  "name": "animal",
+                  "value": "cat"
+                },
+                "age": {
+                  "name": "age",
+                  "value": "elderly"
+                }
+              }
+            },
+            "locale": "en-US",
+            "timestamp": "2017-12-10T21:19:07Z"
+          },
+          "context": {
+            "AudioPlayer": {
+              "playerActivity": "IDLE"
+            },
+            "System": {
+              "application": {
+                "applicationId": "amzn1.ask.skill.64eab9a0-63e2-4a17-9ff0-2a626c920b32"
+              },
+              "user": {
+                "userId": "amzn1.ask.account.AFBKBNU7ZZXHWITTNH6MGX3XM7SVTTLZMOD7ODSBFC4EG7ZNWJXUDJDVR7XLESDBJ67VJ4QUQX2NBCEZCRLERJOV776W5LMZ75JWM6H5TM2AAMMS3RTISDGJREQY7DLYTHMUERJV3H57E634XTXTC5TONN4IHLXB3IO5JALY4Z6GKB4NPXSRDB6DGQ2QHUAD5KVVB6COKHG7WQA"
+              },
+              "device": {
+                "supportedInterfaces": {}
+              }
+            }
+          },
+          "version": "1.0"
+        }
