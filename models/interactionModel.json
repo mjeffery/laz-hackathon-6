@@ -7,7 +7,7 @@
           {
             "id": null,
             "name": {
-              "value": "baby",
+              "value": "Baby",
               "synonyms": [
                 "newborn"
               ]
@@ -16,14 +16,14 @@
           {
             "id": null,
             "name": {
-              "value": "young",
+              "value": "Young",
               "synonyms": []
             }
           },
           {
             "id": null,
             "name": {
-              "value": "adult",
+              "value": "Adult",
               "synonyms": [
                 "grownup"
               ]
@@ -32,7 +32,7 @@
           {
             "id": null,
             "name": {
-              "value": "senior",
+              "value": "Senior",
               "synonyms": [
                 "elderly",
                 "older",
@@ -48,50 +48,50 @@
           {
             "id": null,
             "name": {
-              "value": "barnyard",
+              "value": "Barnyard",
               "synonyms": []
             }
           },
           {
             "id": null,
             "name": {
-              "value": "bird",
+              "value": "Bird",
               "synonyms": []
             }
           },
           {
             "id": null,
             "name": {
-              "value": "cat",
+              "value": "Cat",
               "synonyms": []
             }
           },
           {
             "id": null,
             "name": {
-              "value": "dog",
+              "value": "Dog",
               "synonyms": []
             }
           },
           {
             "id": null,
             "name": {
-              "value": "horse",
+              "value": "Horse",
               "synonyms": []
             }
           },
           {
             "id": null,
             "name": {
-              "value": "reptile",
+              "value": "Reptile",
               "synonyms": []
             }
           },
           {
             "id": null,
             "name": {
-              "value": "smallfurry",
-              "synonyms": []
+              "value": "Small&Furry",
+              "synonyms": ["furry"]
             }
           }
         ]
@@ -102,15 +102,15 @@
           {
             "id": null,
             "name": {
-              "value": "male",
-              "synonyms": []
+              "value": "M",
+              "synonyms": ["male"]
             }
           },
           {
             "id": null,
             "name": {
-              "value": "female",
-              "synonyms": []
+              "value": "F",
+              "synonyms": ["female"]
             }
           }
         ]
@@ -121,29 +121,29 @@
           {
             "id": null,
             "name": {
-              "value": "small",
-              "synonyms": []
+              "value": "S",
+              "synonyms": ["small"]
             }
           },
           {
             "id": null,
             "name": {
-              "value": "medium",
-              "synonyms": []
+              "value": "M",
+              "synonyms": ["male"]
             }
           },
           {
             "id": null,
             "name": {
-              "value": "large",
-              "synonyms": []
+              "value": "L",
+              "synonyms": ["large"]
             }
           },
           {
             "id": null,
             "name": {
-              "value": "extra large",
-              "synonyms": []
+              "value": "XL",
+              "synonyms": ["extra large", "very large"]
             }
           }
         ]
