@@ -6,6 +6,7 @@ const _ = require('lodash')
 const api = require('./lib/petfinder-api')
 const mapSlot = require('./lib/map-slot')
 const explainPet = require('./lib/explain-pet')
+const getPresentation = require('./lib/get-presentation')
 
 const getSlot = (request, slotName) => {
     const slot = request.intent.slots[slotName]
@@ -43,6 +44,15 @@ const handlers = {
                 this.response.speak("Sorry, I'm having a little trouble locating pets right now, try again later")
                 this.emit(':responseReady')
             })
+    },
+    givePresentationIntent: function() {
+        getPresentation()
+            .then( text => this.response.speak(text) )
+            .catch( err => {
+                console.err(err)
+                this.response.speak("Sorry, I'm having a little trouble with the presentation right now.")
+            })
+            .then( () => this.emit(':responseReady') )
     }
 };
 

@@ -1,0 +1,28 @@
+what you expect to be hard and what was actually hard:
+
+original idea was to check the GPS tracker, seemed like a lot of reverse engineering
+just used this petfinder api instead
+    (seems like someone beat us to the idea, but we will persevere)
+
++ its doable to get started with this stuff
++ straightfoward
+    account on skill side
+    then hosting-- AWS lambda was easy
+    tutorials
+
+- tutorials haven't aged the best-- doesn't match the way you'd like
+    its in there just not in the same order
+
+- parts of the API are cumbersome
+    custom slots in particular
+        can't see IDs with testing tool / wierd resolution authority stuff
+
+- reporting results in spoken text is much more work than with  
+
+Josh
+    glimpses of technology I want to explore further
+     node environment seems like a nice place for experimenting with stuff
+        been working in "work environment", all plugging stuff in-- "never spinning stuff up from scratch"
+
+
+not a good fit 

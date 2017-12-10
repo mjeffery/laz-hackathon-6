@@ -1,0 +1,9 @@
+<s>I will be presenting our hackathon presentation</s>
+<s><emphasis level="reduced">next slide</emphasis></s>
+<s>
+    We spent friday building an Alexa 
+    <break strength="weak" /> 
+    <emphasis level="reduced">that's me!</emphasis> 
+    <break strength="weak" /> 
+    skill
+</s>
