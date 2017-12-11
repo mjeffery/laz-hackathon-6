@@ -175,7 +175,15 @@
           "find a {size} {sex} {animal}",
           "find a {animal}",
           "find a {size} {age} {sex} {animal}",
-          "find a {age} {sex} {animal}"
+          "find a {age} {sex} {animal}",
+          "find a {age} {size} {sex} {animal}",
+          "find a {sex} {age} {animal}",
+          "find a {sex} {size} {animal}",
+          "find a {age} {size} {animal}",
+          "find a {age} {sex} {size} {animal}",
+          "find a {size} {sex} {age} {animal}",
+          "find a {sex} {age} {size} {animal}",
+          "find a {sex} {size} {age} {animal}"
         ],
         "slots": [
           {
