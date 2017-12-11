@@ -24,7 +24,7 @@ const handlers = {
 
         //TODO fetch the zip code from the device
 
-        api.find({ location: '48197', animal, size, age })
+        api.find({ location: '48197', animal, size, sex, age })
             .then( res => {
                 let msg = '';
 
