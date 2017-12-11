@@ -1,9 +1,14 @@
-<s>I will be presenting our hackathon presentation</s>
+<p>
+    Welcome to Josh, Rashmi, and Mike's hackathon presentation:
+    <break strength="weak" /> 
+    Six crazy tricks to teach your Alexa.  Number Four will blow your mind!
+</p>
 <s><emphasis level="reduced">next slide</emphasis></s>
-<s>
-    We spent friday building an Alexa 
-    <break strength="weak" /> 
-    <emphasis level="reduced">that's me!</emphasis> 
-    <break strength="weak" /> 
-    skill
-</s>
+<break strength="strong" /> 
+<p>
+    The Alexa
+    <s><emphasis level="reduced">that's me!</emphasis></s>
+    is the fastest growing, most feature-filled of the exciting new voice 
+    technologies developed by everyone's favorite company Amazon.
+    Using the super easy to understand tutorials they were able to be up and running in seconds
+</p>
